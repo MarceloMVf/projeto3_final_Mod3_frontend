@@ -37,7 +37,7 @@ const VagaView = (props) => {
       <div className="row">
         <div className="col">
           <h1 className="text-center mt-4">{filme.nome}</h1>
-          <img src={filme.imagemUrl} alt={filme.nome} width="300" height="400" margin-right="-50%"/>
+          <img src={filme.imagemUrl} alt={filme.nome} width="300" height="400"/>
           <h3 className="text-center">{filme.diretor}</h3>
           <h3 className="text-center">{filme.duracao}</h3>
           <h3 className="text-center">{filme.genero}</h3>
